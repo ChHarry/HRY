@@ -6,7 +6,7 @@ except:
 
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import Haroon
+    import Harry
     
 elif bit == '32bit':
-    import Haroon32
+    import Harry32
